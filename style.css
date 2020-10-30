@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.main{
+    position: relative;
+     width: 70%;
+    /* height: 40vh; */
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* margin: auto; */
+    /* background-color: red; */
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
+    /* margin-top: 40px; */
+}
+.right-box{
+   
+    /* width:40%; */
+    /* height: 80vh; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:#dcdde1; */
+    /* margin-top: 123px; */
+   
+}
+.new{
+    
+    position: absolute;
+    top: 4px;
+    right: 400px;
+    /* width: 25%; */
+    margin: 4px;
+    /* margin-top: 20px; */
+    /* left:5px; */
+    /* border: 2px solid blue; */
+    z-index: 2;
+
+}
+.fas{
+    /* background-color:#e84118; */
+    margin: 14px;
+}
+.new h1{
+    word-spacing: 12px;
+}
+/* .circle{
+    height: 24px;
+    width:24px;
+    background-color:pink;
+    border-radius: 50%;
+}
+.circle div{
+     
+    background-color: #fff;
+    margin: 1px;
+    width: 12px;
+    height: 4px;
+} */
+
+.player1{
+   margin-top: 130px;
+   color: #e84118;
+   font-size: 2rem;
+   letter-spacing: 5px;
+}
+
+
+.right-current{
+    background-color: maroon;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /* width: 160px;
+    height: 160px; */
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 100px auto 50px auto; */
+}
+.right-current p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin: 0 auto;
+    width: 120px;
+    /* margin-top: 300px; */
+    /* margin-bottom: 50px; */
+    
+}
+.right-current h2{
+    margin: 0 auto;
+    width: 120px;
+    
+}
+.left-current{
+    background-color: maroon;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.left-current p{
+    font-size: 2rem;
+    margin: none;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 120px;
+}
+/* p{
+    font-size: 3rem;
+    color: white;
+ 
+} */
+.left-current h2{
+    margin: 0 auto;
+    width: 120px;
+}
+.left-box{
+   
+    /* width:40%; */
+    /* height: 80vh; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* background-color:#ecf0f1; */
+    /* margin-top: 123px; */
+   
+}
+ 
+ span {
+     font-size: 6rem;
+ }
+ .fas{
+     color: maroon;
+ }
+ .image{
+     height: 40px;
+     width: 40px;
+ }
+.circle_left{
+    position: absolute;
+    height:12px ;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #e84118;
+    /* left: 45%; */
+    right:30%;
+    top: 140px;
+}
+
+ /* .right-current{
+     margin-top: 90px;
+     text-align: center;
+    margin-bottom:40px;
+ } */
+
+ /* .player2{
+     background-color: cornsilk;
+ } */
+
+
+ .circle{
+     position: absolute;
+     height:12px ;
+     width: 13px;
+     border-radius: 50%;
+     background-color: #e84118;
+     left: 35%;
+     /* right:44.2rem; */
+     top: 140px;
+ }
+ .image{
+     position: absolute;
+     /* right: 45%; */
+     left: 48%;
+ }
+
+
+ /* .hollow-circle{
+     border: 8px solid #e84118;
+     border-radius: 50px;
+ } */
+ .roll-dice{
+     position: absolute;
+     /* right: 6px; */
+    /* left: 12px; */
+     top:380px;
+     /* width: 200%; */
+     /* background-color: #e84118; */
+ }
+
+ @media screen and (max-width: 1024px){
+    .new{
+        right: 200px;
+        width: 35%;
+    }
+    .image{
+        left: 42%;
+    }
+    .circle{
+        left: 37%;
+    }
+.right-current
+{
+    width: 30%;
+}
+.right-current h2{
+    font-size: 1rem;
+
+}
+    .roll-dice{
+        width: fit-content;
+        font-size:1rem;
+    }
+ 
+
+ }
+
+ @media screen and (max-width:768px){
+     .new{
+         width: 60%;
+         right: 100px;
+     }
+     /* .image{
+       left: 80%;
+     } */
+     .player1{
+         letter-spacing: none;
+         word-spacing: none;
+     }
+     .circle{
+         left: 44%;
+     }
+     /* .roll-dice{
+         height: 15rem;
+         margin: 80pc;
+     }*/
+     .right-current{
+         height: 10rem;
+         /* margin: 30px; */
+     }
+ } 
